@@ -13,7 +13,7 @@ driver.get(url)
 
 search = driver.find_element(by=By.ID,  value='search-term')
 search.send_keys('Words')
-search.click()
+
 
 
 
